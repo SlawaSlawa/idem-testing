@@ -10,7 +10,7 @@
     font-family: 'Baron Neue',sans-serif;
     counter-reset: myCounter;
 }
-  
+
 .feature__item{
     position: relative;
 
@@ -20,7 +20,7 @@
 
     z-index: 10;
 }
-  
+
 .feature__item:before {
     counter-increment: myCounter;
     content:counter(myCounter, decimal-leading-zero);
