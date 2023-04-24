@@ -1,0 +1,57 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: $basic-color;
+}
+
+a {
+    text-decoration: none;
+}
+
+.global-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1197px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: $section-padding 0;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 40px;
+
+    font-family: 'Baron Neue', sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    color: $section-title-color;
+}
+
+.title {
+    max-width: 527px;
+    margin: 0;
+    font-family: 'Baron Neue',sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    color: $title-color;
+}
+
+.map-image-item {
+    position: absolute;
+    z-index: 10;
+}
+.map-image-item--target {
+    top: 50%;
+    left: 50%;
+}
