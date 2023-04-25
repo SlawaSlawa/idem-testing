@@ -47,6 +47,14 @@ a {
     color: $title-color;
 }
 
+.section-subtitle {
+    margin-bottom: 80px;
+    font-family: 'Baron Neue', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    color: #08131F;
+}
+
 .map-image-item {
     position: absolute;
     z-index: 10;

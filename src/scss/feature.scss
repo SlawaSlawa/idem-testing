@@ -1,14 +1,12 @@
-.section-subtitle {
-    margin-bottom: 80px;
-    font-family: 'Baron Neue', sans-serif;
-    font-size: 22px;
-    line-height: 30px;
-    color: #08131F;
+.container--feature {
+    position: relative;
 }
 
 .feature__list{
     font-family: 'Baron Neue',sans-serif;
     counter-reset: myCounter;
+    padding-top: 53px;
+    padding-bottom: 53px;
 }
 
 .feature__item{
@@ -26,7 +24,7 @@
     content:counter(myCounter, decimal-leading-zero);
 
     position: absolute;
-    top: -80px;
+    top: -48px;
     left: 0;
 
     font-size: 100px;
@@ -72,4 +70,32 @@
 
 .feature__item-link:hover {
     opacity: 0.6;
+}
+
+.feature__btns {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48px;
+}
+
+.feature__btns-item {
+    width: 10px;
+    height: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+.feature__btns-item:hover {
+    opacity: .6;
+}
+
+.feature__slider {
+    width: calc(100vw - (100vw - 1197px) / 2);
 }
