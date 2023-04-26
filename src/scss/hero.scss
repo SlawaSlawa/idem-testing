@@ -1,33 +1,33 @@
-.header {
+.hero {
     position: relative;
     padding-top: $section-padding;
     padding-bottom: 60px;
 }
 
-.header__images-block {
+.hero__images-block {
     position: absolute;
     width: calc(100vw - 50% - 100px);
     top: $section-padding + 11px;
     right: 0;
 }
 
-.header__img {
+.hero__img {
     height: 480px;
     margin-bottom: 30px;
 }
 
-.header__img img {
+.hero__img img {
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.header__links {
+.hero__links {
     display: flex;
     gap: 31px;
 }
 
-.header__link-item {
+.hero__link-item {
     display: flex;
     align-items: end;
 
@@ -50,15 +50,15 @@
     transition: background-size .3s ease;
 }
 
-.header__link-item:hover {
+.hero__link-item:hover {
     background-size: 105%;
 }
 
-.header__link-item--presentation {
+.hero__link-item--presentation {
     background-image: url("../images/description/presentation-big.jpg");
     background-color: #C79791;
 }
-.header__link-item--planirovka {
+.hero__link-item--planirovka {
     background-image: url("../images/description/planirovka-big.jpg");
     background-color: #484848;
 }
