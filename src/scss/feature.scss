@@ -3,10 +3,12 @@
 }
 
 .feature__list{
+    box-sizing: border-box;
     font-family: 'Baron Neue',sans-serif;
     counter-reset: myCounter;
     padding-top: 53px;
     padding-bottom: 53px;
+    padding-left: 0;
 }
 
 .feature__item{
@@ -98,4 +100,37 @@
 
 .feature__slider {
     width: calc(100vw - (100vw - 1197px) / 2);
+    box-sizing: border-box;
+}
+@media (max-width: 1200px) {
+    .feature__btns {
+        right: 40px;
+    }
+    .feature__slider {
+        width: calc(100vw - 40px);
+    }
+}
+@media (max-width: 768px) {
+    .feature__btns {
+        top: 138px;
+    }
+}
+@media (max-width: 500px) {
+    .feature__btns {
+        display: none;
+    }
+    .feature__slider {
+        width: calc(100vw - 14px);
+    }
+}
+@media (max-width: 375px) {
+    .feature__item-text {
+        color: $basic-color;
+    }
+}
+
+@media (max-width: 340px) {
+    .feature__slider {
+        width: calc(100vw - 8px);
+    }
 }
