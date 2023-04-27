@@ -33,7 +33,7 @@ a {
 
 .section-title {
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 36px;
 
     font-family: 'Baron Neue', sans-serif;
     font-size: 36px;
@@ -55,7 +55,8 @@ a {
 }
 
 .section-subtitle {
-    margin-bottom: 80px;
+    margin-top: 0;
+    margin-bottom: 11px;
     font-family: 'Baron Neue', sans-serif;
     font-size: 22px;
     line-height: 30px;
@@ -64,8 +65,8 @@ a {
 
 .images-block {
     position: absolute;
-    width: calc(100vw - 50% - 133px);
-    top: -183px;
+    width: calc(100vw - 50% - 105px);
+    top: -177px;
     right: 0;
 }
 
@@ -124,15 +125,6 @@ a {
     background-color: #484848;
     background-position: center;
     background-size: 100% 100%;
-}
-
-.map-image-item {
-    position: absolute;
-    z-index: 10;
-}
-.map-image-item--target {
-    top: 50%;
-    left: 50%;
 }
 
 @media (max-width: 1200px) {
