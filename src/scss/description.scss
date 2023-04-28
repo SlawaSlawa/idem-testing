@@ -138,6 +138,7 @@
 }
 @media (max-width: 500px) {
     .section-description {
+        padding-top: 45px;
         padding-bottom: 542px;
     }
     .description__numbers-list {
@@ -153,6 +154,31 @@
     }
 }
 @media (max-width: 375px) {
-    
+    .section-description {
+        margin-bottom: 62px;
+    }
+    .description__wrapper {
+        row-gap: 34px;
+    }
+    .description__numbers-list {
+        flex-basis: auto;
+        justify-content: flex-start;
+        row-gap: 28px;
+        column-gap: 53px;
+    }
+    .description__numbers-item {
+        margin-bottom: 0;
+        gap: 9px;
+    }
+    .description__more {
+        font-size: 16px;
+        line-height: 120%;
+    }
+    .container--description {
+        gap: 34px;
+    }
+    .images-block {
+        bottom: -35px;
+    }
 }
 

@@ -146,8 +146,14 @@
     }
 }
 @media (max-width: 375px) {
+    .section-feature {
+        padding-top: 43px;
+    }
     .feature__item-text {
         color: $basic-color;
+    }
+    .feature__list {
+        padding-top: 51px;
     }
 }
 

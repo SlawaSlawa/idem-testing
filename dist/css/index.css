@@ -978,6 +978,7 @@ a {
    }
 
    .section-description {
+      padding-top: 45px;
       padding-bottom: 542px;
    }
 
@@ -1000,8 +1001,6 @@ a {
 
    .section-map {
       position: relative;
-
-      overflow: auto;
 
       padding-bottom: 464px;
    }
@@ -1039,11 +1038,69 @@ a {
    .section-title {
       font-size: 32px;
       line-height: 44px;
+
+      letter-spacing: 2.2px;
    }
 
    .images-block__link-item {
       width: 50%;
       padding: 19px 10px;
+   }
+
+   .hero {
+      padding-top: 26px;
+      padding-bottom: 34px;
+   }
+
+   .section-description {
+      margin-bottom: 62px;
+   }
+
+   .description__wrapper {
+      row-gap: 34px;
+   }
+
+   .description__numbers-list {
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      row-gap: 28px;
+      -webkit-column-gap: 53px;
+         -moz-column-gap: 53px;
+              column-gap: 53px;
+   }
+
+   .description__numbers-item {
+      margin-bottom: 0;
+
+      gap: 9px;
+   }
+
+   .description__more {
+      font-size: 16px;
+      line-height: 120%;
+   }
+
+   .container--description {
+      gap: 34px;
+   }
+
+   .images-block {
+      bottom: -35px;
+   }
+
+   .map__image-wrapper {
+      bottom: -16px;
+   }
+
+   .section-map {
+      padding-bottom: 440px;
+   }
+
+   .section-title--map {
+      margin-bottom: 31px;
    }
 
    .map__buttons-list {
@@ -1054,8 +1111,16 @@ a {
       margin-bottom: 35px;
    }
 
+   .section-feature {
+      padding-top: 43px;
+   }
+
    .feature__item-text {
       color: #303030;
+   }
+
+   .feature__list {
+      padding-top: 51px;
    }
 }
 

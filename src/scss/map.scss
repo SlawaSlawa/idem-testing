@@ -270,7 +270,6 @@
     .section-map {
         position: relative;
         padding-bottom: 464px;
-        overflow: auto;
     }
     .map__image-wrapper {
         position: absolute;
@@ -286,6 +285,15 @@
     }
 }
 @media (max-width: 375px) {
+    .map__image-wrapper {
+        bottom: -16px;
+    }
+    .section-map {
+        padding-bottom: 440px;
+    }
+    .section-title--map {
+        margin-bottom: 31px;
+    }
     .map__buttons-list {
         row-gap: 14px;
     }
