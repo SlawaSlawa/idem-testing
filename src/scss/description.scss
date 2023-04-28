@@ -94,11 +94,11 @@
 }
 @media (max-width: 768px) {
     .description__wrapper {
-        justify-content: space-between;
-        gap: 0;
+        justify-content: flex-start;
+        gap: 114px;
     }
     .container--description {
-        gap: 58px;
+        gap: 31px;
     }
     .description__more {
         display: inline-block;
@@ -111,6 +111,13 @@
     }
     .description__numbers-item--mobile {
         display: block;
+    }
+    .section-description {
+        padding-top: 56px;
+        padding-bottom: 722px;
+    }
+    .images-block {
+        bottom: -58px;
     }
 }
 @media (max-width: 620px) {

@@ -146,7 +146,13 @@ a {
 }
 @media (max-width: 768px) {
     .section {
-        padding: 60px 0
+        padding: 27px 0
+    }
+    .title {
+        max-width: 542px;
+    }
+    .title__sity {
+        display: inline-block;
     }
     .images-block__img {
         height: 478px;

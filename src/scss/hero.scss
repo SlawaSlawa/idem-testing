@@ -2,3 +2,10 @@
     padding-top: $section-padding;
     padding-bottom: 58px;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 47px;
+        padding-bottom: 42px;
+    }
+}

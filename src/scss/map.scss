@@ -256,7 +256,15 @@
     }
 }
 @media (max-width: 768px) {
-
+    .section-title--map {
+        margin-bottom: 25px;
+    }
+    .map__image-wrapper {
+        margin-top: 0;
+    }
+    .map__buttons-list {
+        column-gap: 15px;
+    }
 }
 @media (max-width: 500px) {
     .section-map {

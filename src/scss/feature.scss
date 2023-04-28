@@ -129,7 +129,12 @@
 }
 @media (max-width: 768px) {
     .feature__btns {
-        top: 138px;
+        top: 127px;
+        right: 43px;
+        width: 61px;
+    }
+    .feature__list {
+        padding-top: 104px;
     }
 }
 @media (max-width: 500px) {
